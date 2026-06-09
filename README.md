@@ -1,16 +1,85 @@
-# React + Vite
+# 📝 iTask Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive task management application built with React. iTask helps users organize, track, and manage their daily tasks efficiently with a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Try iTask here:**  
+[Live Demo](https://todo-list-webapp-coral.vercel.app/)
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ Add new tasks
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks
+- ✅ Mark tasks as completed
+- 👀 Show/Hide completed tasks
+- 💾 Local Storage support (tasks persist after page refresh)
+- 📱 Fully responsive design
+- 🎨 Clean and modern UI
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Tailwind CSS
+- React Icons
+- UUID
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/
+│   └── Navbar.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone 
+```
+
+2. Navigate to the project folder
+
+```bash
+cd itask-todo-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## 📸 Preview
+
+![iTask Todo App](image.png)
+
+## 🌟 Future Improvements
+
+- Dark Mode
+- Due Dates
+- Task Categories
+- Search & Filter Tasks
+- Drag and Drop Support
+- Backend Integration
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+Made with ❤️ using React and Tailwind CSS.
